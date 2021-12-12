@@ -10,3 +10,13 @@ result = [number for number in (lines_1 and lines_2)
           if number in lines_1 and number in lines_2]
 
 print(result)
+
+# Dictionary comprehension
+sentence = "What is the Airspeed Velocity of an Unladen Swallow?"
+result_dict = {word: len(word) for word in sentence.split()}
+print(result_dict)
+
+
+
+
+
